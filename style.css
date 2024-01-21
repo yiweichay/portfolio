@@ -137,7 +137,7 @@ nav a{
   font-weight: 600;
   position: flex;
   margin-bottom: 40px;
-  margin-top: 40px;
+  /* margin-top: 40px; */
 }
 
 .normal-text{
@@ -160,7 +160,6 @@ section{
   flex: 1;
   box-sizing: border-box;
   padding: 20px;
-  justify-content: center;
 }
 
 .text-half {
@@ -169,6 +168,18 @@ section{
   justify-content: center;
   align-items: center;
   text-align: center;
+}
+
+.home-text {
+  margin-bottom: 1.5em;
+  font-size: larger;
+}
+
+.image-half {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .image-half img {
