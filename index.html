@@ -36,38 +36,61 @@
     </header>
     
     <section id="home">
-      <p class="normal-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+      <div class="home-container">
+        <div class="text-half">
+          <p class="normal-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+        </div>
+
+        <div class="image-half">
+          <img src="./images/portfolio-img.jpeg" alt="headshot">
+        </div>
+      </div>
     <br />
     </section>
 
     <section id="projects">
       <p id="heading">Projects</p>
-      <div class="vertWrapper">
-        <div class="container clearfix center">
+      <div class="project-container">
 
-          <div class="column project" id="box1">
-            <a href="project1.html" class="click-link">
-              <p class="box-description">
-                Final Year Individual Project:
-                <br>Analysis of Melt Pool Temperatures in Additive Manufacture
-              </p>
-            </a>
-          </div>
-
-          <div class="column project" id="box2">
-            <a href="project2.html" class="click-link">
-              <p class="box-description">Embedded C Project: 
-              <br>Mine Navigation Search and Rescue</p>
-            </a>
-          </div>
-
-          <div class="column project" id="box3">
-            <a href="project3.html" class="click-link">
-              <p class="box-description">Embedded C Individual Project: 
-              <br> Energy Saving Clock</p>
-            </a>
+        <div class="project-column">
+          <img src="./images/FYPimage.jpg" alt="image1">
+          <div class="project-description-container">
+            <p class="project-heading">
+              Defect detection in Additive Manufacture
+            </p>
+            <p class="project-description">
+              This Master's Final Year Individual Project investigates the cooling rates in Laser Powder Bed Fusion (L-PBF)
+            </p>
+            <button class="project-button">Read more -></button>
           </div>
         </div>
+
+        <div class="project-column">
+          <img src="./images/ecm.jpeg" alt="image2">
+          <div class="project-description-container">
+            <p class="project-heading">
+              Mine Nagivation Search and Rescue
+            </p>
+            <p class="project-description">
+              Developed an autonomous robot that navigates through a "mine" with the use of color sensors
+            </p>
+            <button class="project-button">Read more -></button>
+          </div>
+        </div>
+
+        <div class="project-column">
+          <img src="./images/clock.jpeg" alt="image3">
+          <div class="project-description-container">
+            <p class="project-heading">
+              Microprocessor-based Energy Saving Clock
+            </p>
+            <p class="project-description">
+              Implement a working microprocessor-based clock to adjust for daylight saving
+            </p>
+            <button class="project-button">Read more -></button>
+          </div>
+        </div>
+
       </div>
 
     </section>
