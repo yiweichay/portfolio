@@ -408,3 +408,22 @@ br {
 .project-page-footer {
   margin-top: 80px;
 }
+
+.proj2-github-link{
+  text-decoration: none;
+}
+
+.proj2-github-link:visited {
+  text-decoration: none;
+}
+
+.video {
+  margin-top: 50px;
+}
+
+.project-page-heading-gr {
+  font-weight: 600;
+  font-size: 30px;
+  color:hsl(226, 25%, 52%);
+  flex: 0 0 280px;
+}
