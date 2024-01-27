@@ -419,6 +419,7 @@ br {
 
 .video {
   margin-top: 50px;
+  max-height: 500px;
 }
 
 .project-page-heading-gr {
