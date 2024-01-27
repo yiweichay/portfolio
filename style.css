@@ -395,7 +395,7 @@ br {
   display: flex;
   justify-content: center;
   max-width: 700px;
-  max-height: 400px;
+  max-height: 370px;
 }
 
 .project-page-heading-ta {
@@ -403,4 +403,8 @@ br {
   font-size: 30px;
   color:hsl(226, 25%, 52%);
   flex: 0 0 270px;
+}
+
+.project-page-footer {
+  margin-top: 80px;
 }
