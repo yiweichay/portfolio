@@ -191,6 +191,12 @@ section{
   border-radius: 20px;
 }
 
+@media screen and (max-width:768px) {
+  .home-container {
+    flex-direction: column-reverse;
+  }
+}
+
 /* Project Boxes*/
 .project-container {
   display: flex;
@@ -206,6 +212,16 @@ section{
   flex-direction: column;
   align-items: center;
   text-align: center;
+}
+
+@media screen and (max-width: 768px){
+  .project-container {
+    flex-direction:  column;
+  }
+
+  .project-column {
+    width: 100%;
+  }
 }
 
 .project-column img {
@@ -335,7 +351,7 @@ footer {
   justify-content: center;
   align-items: center;
   height: 600px;
-  font-size: 60px;
+  font-size: 55px;
   font-weight: 600;
   text-align: center;
   flex-direction: column;
@@ -352,10 +368,28 @@ footer {
   font-weight: 200;
 }
 
+@media screen and (max-width: 768px) {
+  .project-header-text {
+    font-size: 40px; /* Decrease font size for smaller screens */
+    margin-right: 50px; /* Adjust margins accordingly */
+    margin-left: 50px;
+  }
+
+  .header-description {
+    margin: 10%;
+  }
+}
+
 .project-overview-container {
   display: flex;
   flex-direction: row;
   gap: 40px;
+}
+
+@media screen and (max-width: 768px) {
+  .project-overview-container {
+    flex-direction: column;
+  }
 }
 
 .project-page-heading {
@@ -368,6 +402,17 @@ footer {
 .vertical-line {
   border-right: 1px solid hsl(226, 25%, 52%);
   height: auto;
+}
+
+@media screen and (max-width: 768px) {
+  .project-page-heading {
+    flex: 0 0 30px
+  }
+  .vertical-line {
+    border-right: none;
+    border-bottom: 1px solid hsl(226, 25%, 52%);
+    width: auto
+  }
 }
 
 br {
@@ -390,6 +435,12 @@ br {
   flex: 0 0 320px;
 }
 
+@media screen and (max-width: 768px) {
+  .project-page-heading-dpp {
+    flex: 0 0 30px
+  }
+}
+
 .project-images {
   margin-top: 50px;
   display: flex;
@@ -398,11 +449,23 @@ br {
   max-height: 370px;
 }
 
+@media screen and (max-width:768px) {
+  .project-images {
+    max-width: 150%;
+  }
+}
+
 .project-page-heading-ta {
   font-weight: 600;
   font-size: 30px;
   color:hsl(226, 25%, 52%);
   flex: 0 0 270px;
+}
+
+@media screen and (max-width: 768px) {
+  .project-page-heading-ta {
+    flex: 0 0 30px;
+  }
 }
 
 .project-page-footer {
@@ -427,4 +490,10 @@ br {
   font-size: 30px;
   color:hsl(226, 25%, 52%);
   flex: 0 0 280px;
+}
+
+@media screen and (max-width: 768px) {
+  .project-page-heading-gr {
+    flex: 0 0 30px;
+  }
 }
